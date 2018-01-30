@@ -40,7 +40,7 @@
 		<!-- header start -->
 		<!-- ================ -->
 		<header class="header fixed clearfix navbar navbar-fixed-top">
-			<div class="container" style="height:auto; width:67%;">
+			<div class="container">
 				<div class="row">
 					<div class="col-md-4">
 
@@ -50,7 +50,7 @@
 
 							<!-- logo -->
 							<div class="logo smooth-scroll">
-								<a href="#banner"><img id="logo" src="images/logo.png" alt="Worthy" style="max-width: 70%;"></a>
+								<a href="#banner"><img id="logo" src="images/logo.png" alt="Worthy"></a>
 							</div>
 						</div>
 						<!-- header-left end -->
@@ -87,8 +87,7 @@
 												<li class="active"><a href="#banner">Início</a></li>
 												<li><a href="#agenda">Agenda</a></li>
 												<li><a href="#sobre">Sobre</a></li>
-                        <li><a href="#grupos">Grupos</a></li>
-												<li><a href="#dir_artisticos">Diretores Artísticos</a></li>
+                                                <li><a href="#grupos">Grupos</a></li>
 												<li><a href="#parceiros">Parceiros</a></li>
 												<li><a href="#contactos">Contactos</a></li>
 											</ul>
@@ -900,7 +899,7 @@
 		 <a name="grupos"></a>
         <div class="section"> <!--class="grupos_bg"-->
 			<div class="container">
-				<h1 id="grupos" class="text-center title">Grupos</h1>
+				<h1 class="text-center title">Grupos</h1>
 
 				<br>
 				<div class="row object-non-visible" data-animation-effect="fadeIn">
@@ -917,7 +916,41 @@
 											<span>Ver mais</span>
 										</a>
 									</div>
+
+									<a class="btn btn-default btn-block" data-toggle="modal" data-target="#director-1"><strong>Dir. Artístico: </strong><i>Sara Freitas Faria</i></a>
+
 								</div>
+
+								<!-- Modal director -->
+								<div class="modal fade" id="director-1" tabindex="-1" role="dialog" aria-labelledby="director-1-label" aria-hidden="true">
+									<div class="modal-dialog modal-lg">
+										<div class="modal-content">
+										    <div class="modal-header">
+												<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Fechar</span></button>
+												<h4 class="modal-title" id="director-1-label">Sara Freitas Faria</h4>
+											</div>
+											<div class="modal-body">
+												<div class="row">
+													<div class="col-md-6" align="justify">
+														<p>Professora Flauta de Bisel e diretora artística dos Grupos Consort Bisel e Dolcemente nas atividades artísticas extra escolares da Direção de Serviços de Educação Artística e Multimédia e elemento fundador do grupo Funchal Baroque Ensemble.</p>
+														<p>Mestre em Educação Musical pela Escola Superior de Educação de Setúbal e licenciada em Flauta de Bisel pela Escola Superior de Música de Lisboa, onde estudou flauta com Pedro Couto Soares e música de câmara com Stephen Bull e Olga Prats. Ao abrigo do programa de intercâmbio Erasmus, estudou na Hogeschool voor de Kunsten Utrecht, em 1999 com Heiko ter Schegget e Leo Meilink.</p>
+														<p>Lecionou flauta de bisel no Conservatório de Música de Sintra, Escola de Música do Orfeão de Leiria, Conservatório de Música de Caldas da Rainha, Academia de Amadores de Música e em outras escolas do país.</p>
+														<p>Tem frequentado aulas e masterclasses com os flautistas Maurice Steger, Monika Musch, Pedro Couto Soares, Marion Verbruggen e Peter Holstlag, entre outros.</p>
+														<p>A sua carreira artística tem compreendido a participação em concertos a solo, de música de câmara e em projetos ligados a variados estilos musicais, além do erudito, tanto na RAM, como no resto do país.</p>
+													</div>
+													<div class="col-md-6">
+														<img src="images/dir_artisticos/Sara Faria2.jpg" alt="">
+													</div>
+												</div>
+											</div>
+											<div class="modal-footer">
+												<button type="button" class="btn btn-sm btn-default" data-dismiss="modal">Fechar</button>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- Modal end -->
+
 
 								<!-- Modal -->
 								<div class="modal fade" id="project-1" tabindex="-1" role="dialog" aria-labelledby="project-1-label" aria-hidden="true">
@@ -1490,8 +1523,8 @@
 													<div class="col-md-6" align="justify">
 														<p>A Orquestra de Sopros da Direção de Serviços de Educação Artística e Multimédia foi constituída em Fevereiro de 1993. Actualmente é composta por 56 elementos distribuídos pelos naipes de sopros de madeira, sopros de metal, percussão, piano, guitarra elétrica e baixo elétrico.</p>
 														<p>É de realçar a sua importância pedagógica na implementação do gosto pela prática instrumental em grupo, pela fusão das várias atividades num único projeto de orquestra. O seu repertório é essencialmente dedicado à interpretação de obras originais e orquestrações específicas para este tipo de orquestra, desde Bandas Sonoras, Jazz, Swing, marchas e outros.</p>
-                            <p>Tem participado em diversos eventos a nível regional e em programas de rádio e televisão.</p>
-                            <p>Atualmente é dirigida por André Ferreira.</p>
+                                                        <p>Tem participado em diversos eventos a nível regional e em programas de rádio e televisão.</p>
+                                                        <p>Atualmente é dirigida por André Ferreira.</p>
 													</div>
 													<div class="col-md-6">
 														<img src="images/grupos/14_OSopros.png" alt="">
@@ -1555,590 +1588,6 @@
 			</div>
 		</div>
 		<!-- section end -->
-
-
-		<!-- section start -->
-		<!-- ================ -->
-		 <a name="dir_artisticos"></a>
-        <div class="section">
-			<div class="container">
-				<h1 id="dir_artisticos" class="text-center title">Diretores Artísticos</h1>
-
-				<br>
-				<div class="row object-non-visible" data-animation-effect="fadeIn">
-					<div class="col-md-12">
-
-						<!-- directors items start -->
-						<div class="isotope-container row grid-space-20">
-
-							<div class="col-sm-6 col-md-3 isotope-item jan fev mar abr mai jun jul ago set out nov dez">
-								<div class="image-box">
-									<div class="overlay-container" style="max-height: 257px;">
-										<img src="images/dir_artisticos/Foto André Ferreira OS 2.jpg" alt="">
-										<a class="overlay" data-toggle="modal" data-target="#director-1">
-											<i class="fa fa-search-plus"></i>
-											<span>Ver mais</span>
-										</a>
-									</div>
-									<a class="btn btn-default btn-block" data-toggle="modal" data-target="#director-1"><i>André Ferreira</i></a>
-								</div>
-
-								<!-- Modal director -->
-								<div class="modal fade" id="director-1" tabindex="-1" role="dialog" aria-labelledby="director-1-label" aria-hidden="true">
-									<div class="modal-dialog modal-lg">
-										<div class="modal-content">
-											<div class="modal-header">
-												<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Fechar</span></button>
-												<h4 class="modal-title" id="director-1-label">Maestro André Ferreira</h4>
-											</div>
-											<div class="modal-body">
-												<div class="row">
-													<div class="col-md-6" align="justify">
-														<p>Nascido a 4 de abril de 1983, André Ferreira iniciou os seus estudos musicais aos dez anos na Fundação Conservatório Regional de Gaia, concluindo o curso complementar de Saxofone com o professor Hugo Teixeira. Durante três anos frequentou também a classe de Oboé com o professor Saul Silva.</p>
-														<p>Participou em Masterclass orientadas por Henk van Twillert, Claude Delangle, Jean Yeves Formeau, José Massarão, Paulo Martins, Francisco Ferreira e Hugo Teixeira.</p>
-														<p>Foi membro fundador do “Quartetos de Saxofones de Gaia” e da orquestra ligeira “Yakety Band”.</p>
-														<p>Em 2002 e 2003, integrou os estágios da Orquestra Nacional de Sopros dos Templários com os maestros Alberto Roque e José Manuel Brito.</p>
-														<p>Frequentou cursos de direção de orquestra de sopros orientados pelos maestros Francisco Ferreira, Paulo Martins e José Pedro Figueiredo.</p>
-														<p>Em 2008 completou a Licenciatura no curso de Professores do Ensino Básico - variante de Educação Musical na Escola Superior de Educação do Porto.</p>
-														<p>Entre 2008 e 2011 lecionou a disciplina de Educação Musical em escolas do concelho de Vila Nova de Gaia.</p>
-														<p>Entre 2006 e 2011 foi vice presidente da Academia de Artes da Banda Musical Leverense onde, paralelamente, lecionou as disciplinas de saxofone e formação musical.</p>
-														<p>Frequentou o mestrado em Direção de Orquestra de Sopros na Universidade de Aveiro.</p>
-														<p>Foi maestro da Orquestra Juvenil de Lever entre 2001 e 2003.</p>
-														<p>Entre 2006 e 2016, foi o maestro da Banda Musical Leverense (Vila Nova de Gaia).</p>
-														<p>Desde Setembro de 2011, leciona a disciplina de Expressão Musical e Dramática na Direção de Serviços de Educação Artística e Multimédia (DSEAM).</p>
-														<p>Desde Setembro de 2016, é o diretor artístico da Orquestra de Sopros da DSEAM.</p>
-													</div>
-													<div class="col-md-6">
-														<img src="images/dir_artisticos/Foto André Ferreira OS 2.jpg" alt="">
-													</div>
-												</div>
-											</div>
-											<div class="modal-footer">
-												<button type="button" class="btn btn-sm btn-default" data-dismiss="modal">Fechar</button>
-											</div>
-										</div>
-									</div>
-								</div>
-								<!-- Modal end -->
-							</div>
-
-
-							<div class="col-sm-6 col-md-3 isotope-item jan fev mar abr mai jun jul ago set out nov dez">
-								<div class="image-box">
-									<div class="overlay-container" style="max-height: 257px;">
-										<img src="images/dir_artisticos/Diana Pita2.jpg" alt="">
-										<a class="overlay" data-toggle="modal" data-target="#director-2">
-											<i class="fa fa-search-plus"></i>
-											<span>Ver mais</span>
-										</a>
-									</div>
-									<a class="btn btn-default btn-block" data-toggle="modal" data-target="#director-2"><i>Diana Pita</i></a>
-								</div>
-
-								<!-- Modal director -->
-								<div class="modal fade" id="director-2" tabindex="-1" role="dialog" aria-labelledby="director-2-label" aria-hidden="true">
-									<div class="modal-dialog modal-lg">
-										<div class="modal-content">
-											<div class="modal-header">
-												<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Fechar</span></button>
-												<h4 class="modal-title" id="director-2-label">Diana Pita</h4>
-											</div>
-											<div class="modal-body">
-												<div class="row">
-													<div class="col-md-6" align="justify">
-														<p>Diana Pita, natural da Ponta do Sol. Iniciou a sua prática teatral aos 12 anos na Casa do Povo da Ponta do Sol.</p>
-														<p>Concluiu a licenciatura em Teatro e Educação, pela Escola Superior de Educação de Coimbra, em 2010.</p>
-														<p>Concluiu a licenciatura em Educação Musical no Ensino Básico, pelo Instituto Superior de Educação de Odivelas, em 2013.</p>
-														<p>Iniciou, como atriz, em 2011, o projeto “Con(m)texto”.</p>
-														<p>Entre 2010 e 2013 desenvolveu funções na área de Produção na Direção de Serviços de Educação Artística e Multimédia e na vertente de docente de Teatro no âmbito das Modalidades Artísticas.</p>
-														<p>Entre 2013 e 2016 desenvolveu funções na Equipa de Animação, da instituição citada anteriormente.</p>
-														<p>Desde 2013 dá formação na área de Expressão Dramática e Teatro destinada a professores de várias áreas artísticas.</p>
-														<p>Atualmente é professora de Teatro, coordenadora da modalidade artística de Expressão Dramática/Teatro e diretora artística do grupo “Línguas de Palco”.</p>
-													</div>
-													<div class="col-md-6">
-														<img src="images/dir_artisticos/Diana Pita2.jpg" alt="">
-													</div>
-												</div>
-											</div>
-											<div class="modal-footer">
-												<button type="button" class="btn btn-sm btn-default" data-dismiss="modal">Fechar</button>
-											</div>
-										</div>
-									</div>
-								</div>
-								<!-- Modal end -->
-							</div>
-
-
-							<div class="col-sm-6 col-md-3 isotope-item jan fev mar abr mai jun jul ago set out nov dez">
-								<div class="image-box">
-									<div class="overlay-container" style="max-height: 257px;">
-										<img src="images/dir_artisticos/Eduardo Fernandes2.jpg" alt="">
-										<a class="overlay" data-toggle="modal" data-target="#director-3">
-											<i class="fa fa-search-plus"></i>
-											<span>Ver mais</span>
-										</a>
-									</div>
-									<a class="btn btn-default btn-block" data-toggle="modal" data-target="#director-3"><i>Eduardo Fernandes</i></a>
-								</div>
-
-								<!-- Modal director -->
-								<div class="modal fade" id="director-3" tabindex="-1" role="dialog" aria-labelledby="director-3-label" aria-hidden="true">
-									<div class="modal-dialog modal-lg">
-										<div class="modal-content">
-											<div class="modal-header">
-												<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Fechar</span></button>
-												<h4 class="modal-title" id="director-3-label">Eduardo Fernandes</h4>
-											</div>
-											<div class="modal-body">
-												<div class="row">
-													<div class="col-md-6" align="justify">
-														<p>Curriculo por preencher</p>
-
-													</div>
-													<div class="col-md-6">
-														<img src="images/dir_artisticos/Eduardo Fernandes2.jpg" alt="">
-													</div>
-												</div>
-											</div>
-											<div class="modal-footer">
-												<button type="button" class="btn btn-sm btn-default" data-dismiss="modal">Fechar</button>
-											</div>
-										</div>
-									</div>
-								</div>
-								<!-- Modal end -->
-							</div>
-
-
-							<div class="col-sm-6 col-md-3 isotope-item jan fev mar abr mai jun jul ago set out nov dez">
-								<div class="image-box">
-									<div class="overlay-container" style="max-height: 257px;">
-										<img src="images/dir_artisticos/José António Silva 005.jpg" alt="">
-										<a class="overlay" data-toggle="modal" data-target="#director-4">
-											<i class="fa fa-search-plus"></i>
-											<span>Ver mais</span>
-										</a>
-									</div>
-									<a class="btn btn-default btn-block" data-toggle="modal" data-target="#director-4"><i>José António Silva</i></a>
-								</div>
-
-								<!-- Modal director -->
-								<div class="modal fade" id="director-4" tabindex="-1" role="dialog" aria-labelledby="director-4-label" aria-hidden="true">
-									<div class="modal-dialog modal-lg">
-										<div class="modal-content">
-											<div class="modal-header">
-												<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Fechar</span></button>
-												<h4 class="modal-title" id="director-4-label">José António Silva</h4>
-											</div>
-											<div class="modal-body">
-												<div class="row">
-													<div class="col-md-6" align="justify">
-														<p>Concluiu o Curso Complementar de Guitarra no Conservatório Nacional de Lisboa na Classe do professor José Diniz.</p>
-														<p>Frequentou diversas Master Classes de Guitarra com diversos professores entre os quais Abel Carlevaro e David  Russell.</p>
-														<p>Diplomado pela Escola Superior de Educação pela Arte do Conservatório de Lisboa.</p>
-														<p>Professor  profissionalizado do Segundo Ciclo pela Escola Superior de Educação de Setúbal.</p>
-														<p>Frequentou desde o ano de 1996 todos os seminários orientados pelo professor Edwin Gordon na Fundação Calouste Gulbenkian e Universidade Nova de Lisboa.</p>
-														<p>Desde o ano 2000 que leciona a Classe de Guitarra na DSEAM e desde 2004 leciona a atividade Orientações Musicais em parceria com a professora Alexandra Vieira.</p>
-													</div>
-													<div class="col-md-6">
-														<img src="images/dir_artisticos/José António Silva 005.jpg" alt="">
-													</div>
-												</div>
-											</div>
-											<div class="modal-footer">
-												<button type="button" class="btn btn-sm btn-default" data-dismiss="modal">Fechar</button>
-											</div>
-										</div>
-									</div>
-								</div>
-								<!-- Modal end -->
-							</div>
-
-
-							<div class="col-sm-6 col-md-3 isotope-item jan fev mar abr mai jun jul ago set out nov dez">
-								<div class="image-box">
-									<div class="overlay-container" style="max-height: 257px;">
-										<img src="images/dir_artisticos/FOTOS - SOUSA 5.jpg" alt="">
-										<a class="overlay" data-toggle="modal" data-target="#director-5">
-											<i class="fa fa-search-plus"></i>
-											<span>Ver mais</span>
-										</a>
-									</div>
-									<a class="btn btn-default btn-block" data-toggle="modal" data-target="#director-5"><i>José António de Sousa</i></a>
-								</div>
-
-								<!-- Modal director -->
-								<div class="modal fade" id="director-5" tabindex="-1" role="dialog" aria-labelledby="director-5-label" aria-hidden="true">
-									<div class="modal-dialog modal-lg">
-										<div class="modal-content">
-											<div class="modal-header">
-												<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Fechar</span></button>
-												<h4 class="modal-title" id="director-5-label">José António de Sousa</h4>
-											</div>
-											<div class="modal-body">
-												<div class="row">
-													<div class="col-md-6" align="justify">
-														<p>José António de Sousa nasceu em Câmara de Lobos a 01 de Janeiro de 1961.</p>
-														<p>Iniciou os seus estudos musicais aos 13 anos de idade como executante de clarinete, na Banda Distrital do Funchal. Iniciou a sua carreira militar como músico aos 17 anos (voluntário). Frequentou e concluiu com distinção (18 valores) o curso completo de Clarinete no Conservatório de Música da Madeira em 1985, tendo como Professores, ao longo do curso, Raul Serrão, M. Esteves e José A. Faria.</p>
-														<p>Fez o aperfeiçoamento na disciplina de Clarinete com o Prof. Robert Bramley nos anos lectivos de 1997/98 a 1999/00, no Conservatório de Música da Madeira.</p>
-														<p>Em 1985, conclui com aproveitamento o exame final do Curso (cinco anos) de “Pedagogia Musical” do Professor Pierre Van Hauwe.</p>
-														<p>Em 1985 foi finalista, a nível Nacional, do concurso jovens músicos que se efectuou no Conservatório de Música de Lisboa.</p>
-														<p>Lecionou a disciplina de Clarinete, Saxofone e formação Musical no Conservatório de Música da Madeira.</p>
-														<p>Foi 2.º Clarinetista e fez música de câmara no “Quinteto de sopros de madeira” e no “Quinteto Madeira”, na Orquestra Clássica da Madeira.</p>
-														<p>Começou a leccionar a disciplina de Educação Musical no ano lectivo 1983/84.</p>
-														<p>No ano lectivo 1988/89 obtém a profissionalização pela Universidade da Madeira.</p>
-														<p>É professor do quadro de nomeação definitiva da disciplina de Educação Musical, na Escola do 2.º e 3.º Ciclos Doutor Horácio Bento de Gouveia, desde Setembro de 1989. No ano lectivo de 1994/95, na disciplina de Educação Musical, foi orientador de Estágio de dois formandos, na profissionalização em serviço 2.º ano, na Escola do 2.º e 3.º Dr. Horácio Bento de Gouveia e na escola do 2.º e 3.º Ciclos de Santa Cruz.</p>
-														<p>É professor no Direção de Serviços de  Educação Artística e Multimédia desde o ano lectivo de 1992/93 leccionando a disciplina de Clarinete.</p>
-														<p>No GCEA é responsável artístico do “Ensemble de Clarinetes” A e B.</p>
-														<p>Como responsável artístico, participou em quatro festivais Internacionais de Música para Jovens – Gaia/99 – “Ensemble de Clarinetes”, participando, também, no programa “Praça da Alegria” na RTP 2, Gaia /2001 – “Orquestra de Sopros”, Gaia/2002 – “Dixieband” e Gaia/2003 – “Ensemble de Clarinetes”.</p>
-														<p>A 1 de Julho de 2010, conclui o Mestrado em Ensino de Educação Musical no Ensino Básico, na Escola Superior de Setúbal.</p>
-													</div>
-													<div class="col-md-6">
-														<img src="images/dir_artisticos/FOTOS - SOUSA 5.jpg" alt="">
-													</div>
-												</div>
-											</div>
-											<div class="modal-footer">
-												<button type="button" class="btn btn-sm btn-default" data-dismiss="modal">Fechar</button>
-											</div>
-										</div>
-									</div>
-								</div>
-								<!-- Modal end -->
-							</div>
-
-
-							<div class="col-sm-6 col-md-3 isotope-item jan fev mar abr mai jun jul ago set out nov dez">
-								<div class="image-box">
-									<div class="overlay-container" style="max-height: 257px;">
-										<img src="images/dir_artisticos/Juliana Andrade3.jpg" alt="">
-										<a class="overlay" data-toggle="modal" data-target="#director-6">
-											<i class="fa fa-search-plus"></i>
-											<span>Ver mais</span>
-										</a>
-									</div>
-									<a class="btn btn-default btn-block" data-toggle="modal" data-target="#director-6"><i>Juliana Andrade</i></a>
-								</div>
-
-								<!-- Modal director -->
-								<div class="modal fade" id="director-6" tabindex="-1" role="dialog" aria-labelledby="director-6-label" aria-hidden="true">
-									<div class="modal-dialog modal-lg">
-										<div class="modal-content">
-											<div class="modal-header">
-												<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Fechar</span></button>
-												<h4 class="modal-title" id="director-6-label">Juliana Andrade</h4>
-											</div>
-											<div class="modal-body">
-												<div class="row">
-													<div class="col-md-6" align="justify">
-														<p>Coreógrafa, professora de dança e música, Diretora Artística do grupo InCORPOrARTE. Frequentou a licenciatura em dança, na escola Superior de Dança de Lisboa em 2006/2007, Licenciou-se em Educação Musical no ISCE de Odivelas e atualmente é mestre no ensino de Educação Musical pelo IPS de Setúbal.</p>
-														<p>Foi intérprete numa companhia de dança inclusiva Dançando com a Diferença entre 2001 e 2013. Nesta companhia coreografou, "Insónia" em 2004, trabalhou com os coreógrafos Henrique Amoedo, Ivonice Satie, Clara Andermatt, Henrique Rodovalho, Elizabete Monteiro, Bernardo Gama, Rui Horta, Anna Rothlisberger, Arthur Pita, Pedro Machado, Madalena Victorino, Carla Vendremim e Paulo Ribeiro.</p>
-														<p>O seu conceito de espetáculo não assenta apenas na dança mas sim no vínculo e importância das várias artes do espetáculo num só resultado, onde estas bebem umas das outras numa ligação de sobrevivência.</p>
-														<p>Na DSEAM, como Diretora Artística, coreografa e bailarina, criou espetáculos e projetos, onde se destacam o musical “A voz na senda das palavras”, as óperas “Orquídea Branca” e o “O Salto” do compositor Jorge Salgueiro. Coreografou para o espetáculo “Um Sopro na Corda Dança” em 2011, Participou na conceção e coreografou para o espetáculo “O que faz falta”, um tributo a Zeca Afonso em 2015, idealizou, coreografou, foi Diretora Artística e bailarina principal no bailado “Flor, Bela e Louca”, baseado na vida e obra de Florbela Espanca, estreado em Novembro de 2014 no Teatro Municipal Baltazar Dias, coreografou, foi assistente de direção artística e bailarina do musical, comemorativo dos 40 anos da autonomia da RAM, “Grito de Esperança”, idealizou, foi diretora artística, coreografou e dançou no bailado “Rien de Rien”, um tributo à cantora Edith Piaf, realizado em 2016.</p>
-													</div>
-													<div class="col-md-6">
-														<img src="images/dir_artisticos/Juliana Andrade3.jpg" alt="">
-													</div>
-												</div>
-											</div>
-											<div class="modal-footer">
-												<button type="button" class="btn btn-sm btn-default" data-dismiss="modal">Fechar</button>
-											</div>
-										</div>
-									</div>
-								</div>
-								<!-- Modal end -->
-							</div>
-
-
-							<div class="col-sm-6 col-md-3 isotope-item jan fev mar abr mai jun jul ago set out nov dez">
-								<div class="image-box">
-									<div class="overlay-container" style="max-height: 257px;">
-										<img src="images/dir_artisticos/Moritz3.jpg" alt="">
-										<a class="overlay" data-toggle="modal" data-target="#director-7">
-											<i class="fa fa-search-plus"></i>
-											<span>Ver mais</span>
-										</a>
-									</div>
-									<a class="btn btn-default btn-block" data-toggle="modal" data-target="#director-7"><i>Roberto Moritz</i></a>
-								</div>
-
-								<!-- Modal director -->
-								<div class="modal fade" id="director-7" tabindex="-1" role="dialog" aria-labelledby="director-7-label" aria-hidden="true">
-									<div class="modal-dialog modal-lg">
-										<div class="modal-content">
-											<div class="modal-header">
-												<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Fechar</span></button>
-												<h4 class="modal-title" id="director-7-label">Roberto Moritz</h4>
-											</div>
-											<div class="modal-body">
-												<div class="row">
-													<div class="col-md-6" align="justify">
-														<p>Roberto Moritz, Funchal, professor de Cordofones Tradicionais Madeirenses na DSEAM onde orienta o grupo o grupo Si que Brade.</p>
-														<p>Mestrado em Ensino de Educação Musical.</p>
-														<p>Músico, compositor e arranjista grupos Xarabanda, Trigo, Quarteto Moritz.</p>
-														<p>Participante enquanto músico noutros vários projetos artísticos desde musicais, bailados, óperas, solista em braguinha com OCM.</p>
-													</div>
-													<div class="col-md-6">
-														<img src="images/dir_artisticos/Moritz3.jpg" alt="">
-													</div>
-												</div>
-											</div>
-											<div class="modal-footer">
-												<button type="button" class="btn btn-sm btn-default" data-dismiss="modal">Fechar</button>
-											</div>
-										</div>
-									</div>
-								</div>
-								<!-- Modal end -->
-							</div>
-
-
-							<div class="col-sm-6 col-md-3 isotope-item jan fev mar abr mai jun jul ago set out nov dez">
-								<div class="image-box">
-									<div class="overlay-container" style="max-height: 257px;">
-										<img src="images/dir_artisticos/Rostyslav Kuts viola 2017 3.jpg" alt="">
-										<a class="overlay" data-toggle="modal" data-target="#director-8">
-											<i class="fa fa-search-plus"></i>
-											<span>Ver mais</span>
-										</a>
-									</div>
-									<a class="btn btn-default btn-block" data-toggle="modal" data-target="#director-8"><i>Rostyslav Kuts</i></a>
-								</div>
-
-								<!-- Modal director -->
-								<div class="modal fade" id="director-8" tabindex="-1" role="dialog" aria-labelledby="director-8-label" aria-hidden="true">
-									<div class="modal-dialog modal-lg">
-										<div class="modal-content">
-											<div class="modal-header">
-												<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Fechar</span></button>
-												<h4 class="modal-title" id="director-8-label">Rostyslav Kuts</h4>
-											</div>
-											<div class="modal-body">
-												<div class="row">
-													<div class="col-md-6" align="justify">
-														<p>Rostyslav Kuts, natural da Ucrânia, em 1990 concluiu o curso completo da Escola Especializada de Música “Lyssenko” de Kiev, e em 1991 terminou com distinção a Escola Pública de Música de Mykolaiv na especialidade de viola d’arco. Foi laureado no Concurso Nacional para intérpretes em instrumentos de cordas. Em 1996 terminou os estudos na Academia Nacional de Música P.I.Tchaikovsky da Ucrânia na especialidade de viola d’arco, sob a orientação do professor Boris Palshkov.</p>
-														<p>Desde 1994 fez parte do elenco da Orquestra de Câmara de Kyiv da Filarmónica Nacional da Ucrânia, orientada pelo maestro Roman Kofman.</p>
-														<p>Em 2001 lecionou na Academia das Artes para Crianças n.º 3 de Kiev como professor das disciplinas de Viola d’arco e de Quarteto de Cordas.</p>
-														<p>No mesmo ano trabalhou como violetista no agrupamento filarmónico Quinteto de Piano “Kiev”.</p>
-														<p>Desde Dezembro de 2001 trabalha como violetista na Orquestra Clássica da Madeira desempenhando neste momento o papel de Solista B e faz parte do agrupamento “Ensemble XXI”. Com a Orquestra Clássica da Madeira sob a direção do maestro Rui Massena em 2004 apresentou-se a solo com a obra de Astor Piazzolla “El Grande Tango” e em 2006 com o Concerto em Ré para viola e orquestra de C. Stamitz.</p>
-														<p>Em 2008 foi por várias vezes convidado na qualidade de Chefe de Naipe para participar nos concertos da Orquestra de Bretagne em Rennes, França.</p>
-														<p>Desde Setembro de 2003 leciona na Direção de Serviços de Educação Artística e Multimédia (antigo GCEA) no Funchal, Madeira, sendo desde 2005 é Diretor Artístico de Ensemble de Cordas.</p>
-													</div>
-													<div class="col-md-6">
-														<img src="images/dir_artisticos/Rostyslav Kuts viola 2017 3.jpg" alt="">
-													</div>
-												</div>
-											</div>
-											<div class="modal-footer">
-												<button type="button" class="btn btn-sm btn-default" data-dismiss="modal">Fechar</button>
-											</div>
-										</div>
-									</div>
-								</div>
-								<!-- Modal end -->
-							</div>
-
-
-							<div class="col-sm-6 col-md-3 isotope-item jan fev mar abr mai jun jul ago set out nov dez">
-								<div class="image-box">
-									<div class="overlay-container" style="max-height: 257px;">
-										<img src="images/dir_artisticos/Sara Faria2.jpg" alt="">
-										<a class="overlay" data-toggle="modal" data-target="#director-9">
-											<i class="fa fa-search-plus"></i>
-											<span>Ver mais</span>
-										</a>
-									</div>
-									<a class="btn btn-default btn-block" data-toggle="modal" data-target="#director-9"><i>Sara Faria</i></a>
-								</div>
-
-								<!-- Modal director -->
-								<div class="modal fade" id="director-9" tabindex="-1" role="dialog" aria-labelledby="director-9-label" aria-hidden="true">
-									<div class="modal-dialog modal-lg">
-										<div class="modal-content">
-											<div class="modal-header">
-												<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Fechar</span></button>
-												<h4 class="modal-title" id="director-9-label">Sara Faria</h4>
-											</div>
-											<div class="modal-body">
-												<div class="row">
-													<div class="col-md-6" align="justify">
-														<p>Professora Flauta de Bisel e diretora artística dos Grupos Consort Bisel e Dolcemente nas atividades artísticas extra escolares da Direção de Serviços de Educação Artística e Multimédia e elemento fundador do grupo Funchal Baroque Ensemble.</p>
-														<p>Mestre em Educação Musical pela Escola Superior de Educação de Setúbal e licenciada em Flauta de Bisel pela Escola Superior de Música de Lisboa, onde estudou flauta com Pedro Couto Soares e música de câmara com Stephen Bull e Olga Prats. Ao abrigo do programa de intercâmbio Erasmus, estudou na Hogeschool voor de Kunsten Utrecht, em 1999 com Heiko ter Schegget e Leo Meilink.</p>
-														<p>Lecionou flauta de bisel no Conservatório de Música de Sintra, Escola de Música do Orfeão de Leiria, Conservatório de Música de Caldas da Rainha, Academia de Amadores de Música e em outras escolas do país.</p>
-														<p>Tem frequentado aulas e masterclasses com os flautistas Maurice Steger, Monika Musch, Pedro Couto Soares, Marion Verbruggen e Peter Holstlag, entre outros.</p>
-														<p>A sua carreira artística tem compreendido a participação em concertos a solo, de música de câmara e em projetos ligados a variados estilos musicais, além do erudito, tanto na RAM, como no resto do país.</p>
-													</div>
-													<div class="col-md-6">
-														<img src="images/dir_artisticos/Sara Faria2.jpg" alt="">
-													</div>
-												</div>
-											</div>
-											<div class="modal-footer">
-												<button type="button" class="btn btn-sm btn-default" data-dismiss="modal">Fechar</button>
-											</div>
-										</div>
-									</div>
-								</div>
-								<!-- Modal end -->
-							</div>
-
-
-							<div class="col-sm-6 col-md-3 isotope-item jan fev mar abr mai jun jul ago set out nov dez">
-								<div class="image-box">
-									<div class="overlay-container" style="max-height: 257px;">
-										<img src="images/dir_artisticos/Slobodan Sarcevic2.jpg" alt="">
-										<a class="overlay" data-toggle="modal" data-target="#director-10">
-											<i class="fa fa-search-plus"></i>
-											<span>Ver mais</span>
-										</a>
-									</div>
-									<a class="btn btn-default btn-block" data-toggle="modal" data-target="#director-10"><i>Slobodan Sarcevic</i></a>
-								</div>
-
-								<!-- Modal director -->
-								<div class="modal fade" id="director-10" tabindex="-1" role="dialog" aria-labelledby="director-10-label" aria-hidden="true">
-									<div class="modal-dialog modal-lg">
-										<div class="modal-content">
-											<div class="modal-header">
-												<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Fechar</span></button>
-												<h4 class="modal-title" id="director-10-label">Slobodan Sarcevic</h4>
-											</div>
-											<div class="modal-body">
-												<div class="row">
-													<div class="col-md-6" align="justify">
-														<p>Slobodan Sarcevic nasceu na Sérvia, na cidade de Sabac onde iniciou os seus estudos musicais.</p>
-														<p>Em 1994 finaliza o Conservatório de Música na cidade de Kragujevac, República da Sérvia na classe de Acordeão e segue os seus estudos na Ucrânia, na Academia Nacional de Música “P.I.Tchaikovsky” finalizando em 1999 licenciatura como solista intérprete e professor de Acordeão.</p>
-														<p>Em 1999 é convidado pelo Gabinete Coordenador de Educação Artística, atual Direção de Serviços de Educação Artística e Multimédia, para lecionar acordeão, onde atualmente exerce funções pedagógicas.</p>
-														<p>Apresentou-se em vários concursos nacionais e internacionais onde obteve vários prémios.</p>
-														<p>Durante este período apresenta-se em vários projetos musicais, levando ao público madeirense os sons do acordeão numa visão diferente.</p>
-														<p>Desde 2001 é elemento ativo da Associação Musical “Xarabanda”.</p>
-														<p>Participa nos projetos “Caminhos da Atlântida” com um tema original, no CD comemorativo do G.C.E.A. “A voz na sede das palavras”, no DVD dos grupos do G.C.E.A. nos grupos DixieBand e Trio “New Sound” e por último no CD “Cheers”, demonstrando uma vasta sonoridade no acordeão.</p>
-														<p>Apresentou-se em vários recitais a solo e em música de câmara, assim como colaborador em peças de teatro dando o seu contributo musical.</p>
-														<p>Em 2011 finalizou o Mestrado na área de ensino da Educação Musical.</p>
-													</div>
-													<div class="col-md-6">
-														<img src="images/dir_artisticos/Slobodan Sarcevic2.jpg" alt="">
-													</div>
-												</div>
-											</div>
-											<div class="modal-footer">
-												<button type="button" class="btn btn-sm btn-default" data-dismiss="modal">Fechar</button>
-											</div>
-										</div>
-									</div>
-								</div>
-								<!-- Modal end -->
-							</div>
-
-
-							<div class="col-sm-6 col-md-3 isotope-item jan fev mar abr mai jun jul ago set out nov dez">
-								<div class="image-box">
-									<div class="overlay-container" style="max-height: 257px;">
-										<img src="images/dir_artisticos/Teresa Leão3.jpg" alt="">
-										<a class="overlay" data-toggle="modal" data-target="#director-11">
-											<i class="fa fa-search-plus"></i>
-											<span>Ver mais</span>
-										</a>
-									</div>
-									<a class="btn btn-default btn-block" data-toggle="modal" data-target="#director-11"><i>Teresa Leão</i></a>
-								</div>
-
-								<!-- Modal director -->
-								<div class="modal fade" id="director-11" tabindex="-1" role="dialog" aria-labelledby="director-11-label" aria-hidden="true">
-									<div class="modal-dialog modal-lg">
-										<div class="modal-content">
-											<div class="modal-header">
-												<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Fechar</span></button>
-												<h4 class="modal-title" id="director-11-label">Teresa Leão</h4>
-											</div>
-											<div class="modal-body">
-												<div class="row">
-													<div class="col-md-6" align="justify">
-														<p>Professora de bandolim e diretora artística da Orquestra de bandolins nas atividades extraescolares da Direção de Serviços de Educação Artística e Multimédia.</p>
-														<p>Mestre em Ensino de Educação Musical no Ensino Básico pela Escola Superior de Educação – IPS e Licenciada em Educação Musical pelo Instituto Superior de Ciências Educativas.</p>
-														<p>Formada em bandolim pelo Conservatório de Música de Coimbra sob a orientação do professor Flávio Pinho.</p>
-														<p>A sua carreira artística tem compreendido a participação em projetos de música do mundo como Encontros da Eira e C’azoada, e de música antiga pelo Dolcemente.</p>
-													</div>
-													<div class="col-md-6">
-														<img src="images/dir_artisticos/Teresa Leão3.jpg" alt="">
-													</div>
-												</div>
-											</div>
-											<div class="modal-footer">
-												<button type="button" class="btn btn-sm btn-default" data-dismiss="modal">Fechar</button>
-											</div>
-										</div>
-									</div>
-								</div>
-								<!-- Modal end -->
-							</div>
-
-
-							<div class="col-sm-6 col-md-3 isotope-item jan fev mar abr mai jun jul ago set out nov dez">
-								<div class="image-box">
-									<div class="overlay-container" style="max-height: 257px;">
-										<img src="images/dir_artisticos/ZeliaGomes2.jpg" alt="">
-										<a class="overlay" data-toggle="modal" data-target="#director-12">
-											<i class="fa fa-search-plus"></i>
-											<span>Ver mais</span>
-										</a>
-									</div>
-									<a class="btn btn-default btn-block" data-toggle="modal" data-target="#director-12"><i>Zelia Gomes</i></a>
-								</div>
-
-								<!-- Modal director -->
-								<div class="modal fade" id="director-12" tabindex="-1" role="dialog" aria-labelledby="director-12-label" aria-hidden="true">
-									<div class="modal-dialog modal-lg">
-										<div class="modal-content">
-											<div class="modal-header">
-												<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Fechar</span></button>
-												<h4 class="modal-title" id="director-12-label">Maestrina Zelia Gomes</h4>
-											</div>
-											<div class="modal-body">
-												<div class="row">
-													<div class="col-md-6" align="justify">
-														<p>Doutorada em Ciências do Trabalho, área da Psicologia Social, pela Universidade de Cádiz, Espanha;</p>
-														<p>Diploma de Estudos Avançados em Ciências do Trabalho, área da Psicologia Social, pela Universidade de Cádiz, Espanha;</p>
-														<p>Mestrado em Ensino de Educação Musical no Ensino Básico;</p>
-														<p>Licenciatura em Administração e Gestão Escolar pelo Instituto Superior de Ciências Educativas (ISCE) de Odivelas;</p>
-														<p>Profissionalização em Serviço pela Universidade da Madeira - Centro Integrado de Formação de Professores;</p>
-														<p>Diplomada com o Curso Superior de Canto e Concerto pelo Conservatório de Música da Madeira.</p>
-														<p>Participou em vários cursos de Formação e Pedagogia Musical e “Cursos Internacionais de Direcção Coral e Técnica Vocal.</p>
-														<p>Entre 2008/2011, lecionou a disciplina de Técnica Vocal na Licenciatura em Educação Musical no Instituto Superior de Ciências Educativas (ISCE) de Odivelas;</p>
-														<p>A partir de 1990/91 é Professora de Canto/Canto Coral e Diretora Artística dos Coros Infantil, Juvenil, Ensemble Vocal Regina Pacis e Ensemble Vocal Feminino Ninfas do Atântico da DSEAM;</p>
-														<p>A partir de 2001 obteve o cargo Diretora Artística do Coro de Câmara da Madeira;</p>
-														<p>Entre 1990 a 2000 foi Diretora Artística do Grupo Coral do Estreito de Câmara de Lobos;</p>
-														<p>De 1998/99 a 2001/2002 lecionou a disciplina de Canto no Conservatório de Música da Madeira - Ensino Artístico (CEPAM) e Diretora Artística do Coro Juvenil do CEPAM.</p>
-														<p>Tem realizado numerosos concertos nomeadamente na RAM, Porto Santo, Portugal continental, Espanha e Eslovénia.</p>
-													</div>
-													<div class="col-md-6">
-														<img src="images/dir_artisticos/ZeliaGomes2.jpg" alt="">
-													</div>
-												</div>
-											</div>
-											<div class="modal-footer">
-												<button type="button" class="btn btn-sm btn-default" data-dismiss="modal">Fechar</button>
-											</div>
-										</div>
-									</div>
-								</div>
-								<!-- Modal end -->
-							</div>
-
-							</div>
-
-						</div>
-						<!-- directors items end -->
-
-					</div>
-				</div>
-			</div>
-		</div>
-		<!-- section directors end -->
-
-
 
 		<!-- section start -->
 		<!-- ================ -->
@@ -2288,7 +1737,6 @@
 
 				</div>
 			</div>
-
 			<!-- section start -->
 			<!-- ================ -->
 			<div class="translucent-bg blue">
@@ -2298,16 +1746,18 @@
 						<div class="row" style="padding-bottom: 20px;">
 
 							<div class="col-xs-2">
-								<div class="list-horizontal-item" style="max-width: 101px;">
-									<a target="_blank" href=""><img src="images/apoios/AREA.png"></a>
-								</div>
-							</div>
-
-							<div class="col-xs-2">
 								<div class="list-horizontal-item">
 									<a target="_blank" href="https://www.facebook.com/pages/HELLO-publicidade-marketing/804898799562150"><img src="images/apoios/hello.png"></a>
 								</div>
 							</div>
+
+							<!--
+							<div class="col-xs-2">
+								<div class="list-horizontal-item">
+									<a target="_blank" href="https://www.proinov.com"><img src="images/apoios/proinov.png"></a>
+								</div>
+							</div>
+							-->
 
 							<div class="col-xs-2">
 								<div class="list-horizontal-item">
@@ -2330,13 +1780,14 @@
 								</div>
 							</div>
 
-            <div class="row">
 							<div class="col-xs-2">
 								<div class="list-horizontal-item">
 									<a target="_blank" href="http://www.rtp.pt/rtpmadeira"><img src="images/apoios/rtpm.png"></a>
 								</div>
 							</div>
+						</div>
 
+            <div class="row">
 							<div class="col-xs-2">
 								<div class="list-horizontal-item">
 									<a target="_blank" href="http://www.dnoticias.pt"><img src="images/apoios/diario.png"></a>
@@ -2364,7 +1815,7 @@
 							</div>
 						</div>
 					</div>
-
+                    <div class="space"></div>
 				</div>
 			</div>
 			<!-- section end -->
