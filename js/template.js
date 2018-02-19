@@ -10,7 +10,7 @@
 (function($){
 	$(document).ready(function(){
 
-		$(".banner-image").backstretch('images/banner.jpg');
+		$(".banner-image").backstretch('images/Fundo/TA-01.png');
 
 		// Fixed header
 		//-----------------------------------------------
@@ -88,7 +88,7 @@
 					itemSelector: '.isotope-item',
 					layoutMode: 'masonry',
 					transitionDuration: '0.6s',
-					filter: ".jan" //========================================================> ALTERAR O MÊS (jan, fev, mar, abr, mai, jun, jul, ago, set, out, nov e dez)
+					filter: ".fev" //========================================================> ALTERAR O MÊS (jan, fev, mar, abr, mai, jun, jul, ago, set, out, nov e dez)
 					//filter: "*"
 				});
 				// filter items on button click
