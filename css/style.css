@@ -99,6 +99,9 @@ img {
 	display: block;
 	margin: 0 auto;
 }
+.list-horizontal-gov_logo img {
+	display: block;
+}
 .list-icons {
 	padding: 0;
 	margin: 20px 0;
@@ -115,6 +118,7 @@ blockquote {
 }
 .title {
 	margin-top: 0;
+	color: #000000;
 }
 
 /* Layout
@@ -147,7 +151,7 @@ blockquote {
 	left: 0;
 	right: 0;
 	bottom: 0;
-	background-color: rgba(0, 0, 0, 0.7);
+	background-color: rgba(0, 0, 0, 0.5);
 	content: "";
 }
 .banner-caption {
@@ -174,7 +178,8 @@ blockquote {
 	color: #ffffff;
 }
 .default-bg.blue {
-	background-color: #55acee;
+	/*background-color: #55acee;*/
+	background-color: #FFFF00;
 }
 .translucent-bg {
 	color: #ffffff;
@@ -185,7 +190,6 @@ blockquote {
 .default-bg h4,
 .default-bg h5,
 .default-bg h6,
-.translucent-bg h1,
 .translucent-bg h2,
 .translucent-bg h3,
 .translucent-bg h4,
@@ -193,9 +197,18 @@ blockquote {
 .translucent-bg h6 {
 	color: #ffffff;
 }
-.default-bg blockquote footer,
-.translucent-bg blockquote footer {
+.translucent-bg h1{
+	color: #000000;
+}
+.translucent-bg .container .row div{
+	color: #000000;
+}
+.default-bg footer,
+.translucent-bg footer {
 	color: #cccccc;
+}
+.translucent-bg blockquote p {
+	color: #000000;
 }
 .default-bg a,
 .translucent-bg a {
@@ -231,7 +244,10 @@ blockquote {
 	background-color: rgba(0, 0, 0, 0.55);
 }
 .translucent-bg.blue:after {
-	background-color: rgba(85, 172, 238, 0.6);
+	background-color: rgba(255, 255, 0, 0.15);
+}
+.translucent-bg.yellow:after {
+	background-color: rgba(255, 255, 0, 0.7);
 }
 .translucent-bg .container {
 	z-index: 3;
@@ -246,6 +262,9 @@ blockquote {
 /*.grupos-bg{
 	background-color: lightblue;
 }*/
+.parcs_logos_left{
+	margin-left: -80px;
+}
 
 /* Misc
 ----------------------------------------------------------------------------- */
@@ -294,7 +313,7 @@ blockquote {
 	color: #ffffff;
 }
 .banner-caption h1 {
-	font-size: 60px;
+	font-size: 75px;
 }
 .subfooter p {
 	margin-bottom: 0;
@@ -519,7 +538,8 @@ textarea {
 /* Fixed Header
 ----------------------------------------------------------------------------- */
 .fixed-header-on .header {
-	background-color: rgba(0, 0, 0, 0.95);
+	/*background-color: rgba(0, 0, 0, 0.95);*/
+	background-color: rgba(105, 105, 105, 0.98);
 	padding: 5px 0;
 }
 .fixed-header-on .site-name {
@@ -577,6 +597,18 @@ textarea {
 }
 .site-slogan {
 	font-size: 12px;
+}
+/*Texto "organização" antes do logo da SRE - DRE*/
+.text-vertical {
+	-webkit-transform: rotate(270deg);
+	-o-transform: rotate(270deg);
+	display: -webkit-inline-box;
+	bottom: 0;
+	height: 0px;
+	font-weight: normal;
+	margin-top: 50px;
+	font-size: 14px;
+	color: #000000;
 }
 
 /* Testimonials
