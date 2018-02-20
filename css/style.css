@@ -190,6 +190,7 @@ blockquote {
 .default-bg h4,
 .default-bg h5,
 .default-bg h6,
+.translucent-bg h1,
 .translucent-bg h2,
 .translucent-bg h3,
 .translucent-bg h4,
@@ -197,19 +198,22 @@ blockquote {
 .translucent-bg h6 {
 	color: #ffffff;
 }
-.translucent-bg h1{
-	color: #000000;
+.txt_black{
+	color: #000000!important;
+}
+.txt_bold{
+	font-weight:bold;
 }
 .translucent-bg .container .row div{
 	color: #000000;
 }
-.default-bg footer,
-.translucent-bg footer {
+.default-bg blockquote footer,
+.translucent-bg blockquote footer {
 	color: #cccccc;
 }
-.translucent-bg blockquote p {
+/*.translucent-bg blockquote p {
 	color: #000000;
-}
+}*/
 .default-bg a,
 .translucent-bg a {
 	color: #ffffff;
@@ -262,7 +266,7 @@ blockquote {
 /*.grupos-bg{
 	background-color: lightblue;
 }*/
-.parcs_logos_left{
+.parcs_logos_margins{
 	margin-left: -80px;
   margin-right: -40px;
 }
